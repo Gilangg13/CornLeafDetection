@@ -2,7 +2,7 @@
 # 🌽 CornLeafDetection
 
 <div align="center">
- <img src="logo_app.png" width="200" alt="CornLeafDetection Logo">
+ <img src="app/src/main/res/drawable/logo_app.png" width="200" alt="CornLeafDetection Logo">
 </div>
 
 Aplikasi Android untuk mendeteksi penyakit pada daun tanaman jagung menggunakan teknologi Computer Vision berbasis model deep learning TensorFlow Lite.
