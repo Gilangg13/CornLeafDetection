@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_deteksi"
+    app:startDestination="@id/permissionFragment">
+
+    <fragment
+        android:id="@+id/objectDetectionFragment"
+        android:name="com.android.cornleafdetection.ui.detection.objectdetection.ObjectDetectionFragment"
+        android:label="Camera">
+        <action
+            android:id="@+id/action_objectDetection_to_permissions"
+            app:destination="@id/permissionFragment"
+            app:popUpTo="@id/objectDetectionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.android.cornleafdetection.ui.detection.objectdetection.PermissionFragment"
+        android:label="fragment_permission"
+        tools:layout="@layout/fragment_permission">
+
+        <action
+            android:id="@+id/action_permissions_to_objectDetection"
+            app:destination="@id/objectDetectionFragment"
+            app:popUpTo="@id/permissionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

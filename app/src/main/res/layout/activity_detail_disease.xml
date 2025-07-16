@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_disease"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.information.DetailDiseaseActivity">
+
+    <!-- Toolbar di luar ScrollView -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        app:titleTextColor="@color/green_primary" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Gambar -->
+            <ImageView
+                android:id="@+id/diseaseImage"
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/label_gambar_penyakit"
+                android:src="@drawable/bercak_daun"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Nama penyakit -->
+            <TextView
+                android:id="@+id/diseaseName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@id/diseaseImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_name" />
+
+            <!-- Nama ilmiah -->
+            <TextView
+                android:id="@+id/diseaseScientific"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                app:layout_constraintTop_toBottomOf="@id/diseaseName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_scientific" />
+
+            <!-- Label Deskripsi -->
+            <TextView
+                android:id="@+id/diseaseDescriptionLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/label_disease_description"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/diseaseScientific"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Deskripsi -->
+            <TextView
+                android:id="@+id/diseaseDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                app:layout_constraintTop_toBottomOf="@id/diseaseDescriptionLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_description" />
+
+            <!-- Label Gejala -->
+            <TextView
+                android:id="@+id/diseaseSymptomsLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/label_disease_symptoms"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/diseaseDescription"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Gejala -->
+            <TextView
+                android:id="@+id/diseaseSymptoms"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                app:layout_constraintTop_toBottomOf="@id/diseaseSymptomsLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_symptoms" />
+
+            <!-- Label Penyebab -->
+            <TextView
+                android:id="@+id/diseaseCauseLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/label_disease_cause"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/diseaseSymptoms"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Penyebab -->
+            <TextView
+                android:id="@+id/diseaseCause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                app:layout_constraintTop_toBottomOf="@id/diseaseCauseLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_cause" />
+
+            <!-- Label Penanganan -->
+            <TextView
+                android:id="@+id/diseaseTreatmentLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/label_disease_treatment"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@id/diseaseCause"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <!-- Penanganan -->
+            <TextView
+                android:id="@+id/diseaseTreatment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"
+                android:textAlignment="viewStart"
+                app:layout_constraintTop_toBottomOf="@id/diseaseTreatmentLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:text="@string/data_disease_treatment" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

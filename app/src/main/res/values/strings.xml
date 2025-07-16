@@ -1,0 +1,94 @@
+<resources>
+    <!-- Aplikasi -->
+    <string name="app_name">Corn Leaf Detection</string>
+    <string name="app_name_ind">Deteksi Penyakit Daun Jagung</string>
+    <string name="package_name">com.android.cornleafdetection</string>
+    <string name="app_developed_for">Dikembangkan untuk siswa SMK Negeri 1 Kuningan</string>
+    <string name="app_description">Aplikasi ini dibuat untuk membantu siswa dalam mendeteksi penyakit pada tanaman jagung secara otomatis melalui analisis gambar daun.</string>
+    <string name="logo_smk">Logo SMK</string>
+    <string name="smk_negeri_1_kuningan">SMK Negeri 1 Kuningan</string>
+
+    <!-- Deskripsi Gambar -->
+    <string name="desc_image_logo">Logo Deteksi Penyakit Jagung</string>
+    <string name="desc_image_disease">Gambar Penyakit Daun Jagung</string>
+
+    <!-- Menu Navigasi -->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_material">Informasi</string>
+    <string name="menu_detect">Deteksi</string>
+    <string name="menu_history">Riwayat</string>
+    <string name="menu_guide">Tentang</string>
+    <string name="menu_info">Info</string>
+
+    <!-- Halaman Beranda -->
+    <string name="banner_title">Jaga kesehatan tanaman jagungmu!</string>
+    <string name="banner_description">Gunakan fitur deteksi untuk mengetahui kondisi tanaman jagung dengan cepat.</string>
+    <string name="button_banner">Mulai Deteksi</string>
+    <string name="see_more">Lihat Semua</string>
+    <string name="informasi_penyakit">Informasi Penyakit</string>
+
+    <!-- Scan / Kamera -->
+    <string name="btn_camera">Kamera</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="empty_image_warning">Silakan unggah gambar terlebih dahulu.</string>
+    <string name="scan">Pindai</string>
+    <string name="image_scan">Gambar Pindai</string>
+    <string name="scan_your_image">Pindai gambar Anda</string>
+    <string name="image_valid">Foto sesuai</string>
+    <string name="image_invalid">Foto tidak sesuai</string>
+    <string name="lihat_hasil">Analisis</string>
+    <string name="btn_realtime">Deteksi Realtime</string>
+
+    <!-- Panduan Aplikasi -->
+    <string name="welcome_to_app">Selamat Datang di Deteksi Penyakit Daun Jagung</string>
+    <string name="guide_title">Panduan Penggunaan Aplikasi</string>
+    <string name="guide_step_1">1. Buka Aplikasi Deteksi Penyakit Daun Jagung.</string>
+    <string name="guide_step_2">2. Pilih menu \'Deteksi\' untuk mulai mendeteksi penyakit pada daun jagung.</string>
+    <string name="guide_step_3">3. Pilih salah satu metode: \n - Tekan tombol \'Kamera\' untuk mengambil gambar daun jagung langsung. \n - Tekan tombol \'Galeri\' untuk memilih gambar dari penyimpanan.</string>
+    <string name="guide_step_4">4. Tunggu hingga hasil deteksi muncul di layar beserta informasi penyakitnya.</string>
+    <string name="guide_step_5">5. Tekan tombol \'Analisis\' untuk melihat detail lengkap penyakit seperti gejala, penyebab, dan penanganan.</string>
+    <string name="guide_step_6">6. Buka menu \'Riwayat\' untuk melihat hasil deteksi sebelumnya.</string>
+    <string name="guide_step_7">7. Atau gunakan fitur \'Deteksi Realtime\' untuk mendeteksi penyakit secara langsung melalui kamera.</string>
+
+    <!-- Hasil Deteksi - Label -->
+    <string name="label_detection_result">Hasil Analisis</string>
+    <string name="label_gambar_penyakit">Gambar</string>
+    <string name="label_disease_name">Nama Penyakit:</string>
+    <string name="label_disease_scientific">Nama Ilmiah:</string>
+    <string name="label_disease_description">Deskripsi:</string>
+    <string name="label_disease_symptoms">Gejala:</string>
+    <string name="label_disease_cause">Penyebab:</string>
+    <string name="label_disease_treatment">Penanganan:</string>
+    <string name="label_detection_confidence">Akurasi:</string>
+    <string name="label_detection_time">Waktu Deteksi:</string>
+    <string name="btn_back">Kembali</string>
+
+    <string name="analyze_score">%s</string>
+
+    <!-- Hasil Deteksi - Data -->
+    <string name="data_disease_name">Bercak Daun</string>
+    <string name="data_disease_scientific">Helminthosporium turcicum</string>
+    <string name="data_disease_description">Bercak daun merupakan penyakit yang ditandai dengan adanya bercak berwarna coklat pada daun jagung.</string>
+    <string name="data_disease_symptoms">Daun menunjukkan bercak lonjong hingga memanjang berwarna coklat tua dengan tepi kuning.</string>
+    <string name="data_disease_cause">Infeksi jamur Helminthosporium turcicum akibat kondisi lingkungan lembab.</string>
+    <string name="data_disease_treatment">Gunakan fungisida berbahan aktif mancozeb secara rutin dan rotasi tanaman.</string>
+    <string name="data_detection_confidence">95%</string>
+    <string name="data_detection_time">01 Mei 2025, 14:45</string>
+
+    <!-- Riwayat -->
+    <string name="belum_ada_riwayat_deteksi">Belum ada riwayat deteksi</string>
+
+    <!-- Validasi & Error -->
+    <string name="error_loading_image">Gagal memuat gambar</string>
+    <string name="error_no_result">Foto tidak sesuai</string>
+    <string name="photo_suitable">Foto sesuai</string>
+    <string name="analysis_result">Foto telah dianalisis, lanjutkan untuk melihat hasil analisis</string>
+
+    <!-- Lainnya -->
+    <string name="choose_picture">Pilih Gambar</string>
+    <string name="score">Skor Analisis</string>
+    <string name="result_image">Gambar Hasil</string>
+    <string name="nama_label">Nama Penyakit</string>
+    <string name="manfaat_unknown">Tanaman tidak diketahui. Silakan coba lagi dengan gambar yang lebih jelas atau sudut yang berbeda</string>
+
+</resources>

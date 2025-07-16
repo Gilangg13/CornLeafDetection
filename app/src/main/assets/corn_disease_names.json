@@ -1,0 +1,42 @@
+[
+  {
+    "disease_name": "Bercak Daun",
+    "scientific_name": "Helminthosporium turcicum",
+    "description": "Penyakit ini menyebabkan bercak memanjang berwarna cokelat keabu-abuan pada daun jagung, yang dapat mengganggu proses fotosintesis dan mengurangi hasil panen.",
+    "symptoms": "Muncul bercak lonjong berwarna coklat keabu-abuan pada daun.\nBercak kecil berbentuk oval yang basah pada daun jagung \nBercak memanjang berbentuk elips dan bercak menjadi kering meluas \nWarna gejala tersebut hijau keabu-abuan atau coklat \nLesi panjang (hingga 6 inci), elips hingga berbentuk cerutu, berwarna abu-abu kehijauan yang berubah menjadi cokelat kecokelatan.",
+    "causes": "Disebabkan oleh jamur Helminthosporium turcicum. Suhu sedang, cuaca lembab, dan kurangnya pengolahan lahan pertanian setelah panen \nJamur ini dapat bertahan dalam sisa-sisa tanaman yang terinfeksi atau dalam tanah selama 2- 7 tahun.",
+    "treatment": "Gunakan varietas jagung yang tahan terhadap penyakit ini.\nLakukan rotasi tanaman dan sanitasi lahan untuk mengurangi sumber inokulum.\nAplikasikan fungisida preventif sesuai anjuran."
+  },
+  {
+    "disease_name": "Bulai Daun",
+    "scientific_name": "Peronosclerospora maydis",
+    "description": "Bulai adalah penyakit sistemik yang menyerang tanaman jagung sejak dini, menyebabkan daun belang dan pertumbuhan kerdil. Penyakit ini dapat menyebar melalui benih dan tanah.",
+    "symptoms": " Daun menunjukkan klorosis (belang-belang kuning atau putih) sejajar tulang daun, pertumbuhan tanaman terhambat, dan pada kondisi lembap, muncul lapisan putih seperti tepung pada permukaan daun.",
+    "causes": "Infeksi oleh jamur Peronosclerospora maydis.\n Jamur Peronosclerospora maydis menyebar melalui biji dan tanah, terutama pada kondisi lembap.",
+    "treatment": "Gunakan benih jagung yang tahan terhadap bulai.\nLakukan pengolahan tanah yang baik dan rotasi tanaman.\nAplikasikan fungisida sistemik sebagai perlakuan benih.\nGunakan biopestisida berbahan aktif Bacillus subtilis.\nGunakan fungisida sistemik berbahan aktif metalaksil."
+  },
+  {
+    "disease_name": "Hawar Daun",
+    "scientific_name": "Bipolaris maydis",
+    "description": "Hawar daun menyebabkan kerusakan besar dengan memunculkan bercak yang cepat membesar dan merusak jaringan daun. Kondisi lembap mempercepat penyebarannya.",
+    "symptoms": "Muncul bercak kecil berwarna coklat muda sampai abu-abu.\nBentuk bercak biasanya oval atau elips memanjang, sejajar dengan tulang daun.\nUkuran bercak bisa 2–15 cm panjangnya.\nDaun bisa menjadi kuning, mengering, lalu mati jika infeksi parah.",
+    "causes": "Jamur Bipolaris maydis menyerang jaringan daun melalui angin dan air hujan, berkembang pesat pada kondisi lembap.",
+    "treatment": "Gunakan Trichoderma harzianum untuk menghambat pertumbuhan patogen.\nAplikasikan fungisida berbahan aktif propineb.\nLakukan rotasi tanaman dan sanitasi lahan untuk mengurangi sumber inokulum."
+  },
+  {
+    "disease_name": "Karat Daun",
+    "scientific_name": "Puccinia sorghi",
+    "description": "Karat daun ditandai dengan munculnya pustula berwarna oranye hingga cokelat pada daun. Serangan berat dapat menyebabkan daun mengering dan mengurangi hasil panen.",
+    "symptoms": "Muncul bintik-bintik kecil berwarna cokelat hingga merah oranye pada kedua sisi daun, yang berkembang menjadi pustula berisi spora.",
+    "causes": "Disebabkan oleh jamur Puccinia sorghi. Jamur Puccinia sorghi menyebar melalui spora di udara, terutama pada kondisi lembap.",
+    "treatment": "Tanam varietas jagung yang tahan terhadap karat daun.\nLakukan rotasi tanaman dan buang sisa tanaman yang terinfeksi.\nGunakan fungisida spesifik untuk karat daun sesuai rekomendasi.\nSemprotkan ekstrak neem untuk menghambat perkembangan jamur.\nGunakan fungisida berbahan aktif azoksistrobin atau propikonazol."
+  },
+  {
+    "disease_name": "Daun Sehat",
+    "scientific_name": "-",
+    "description": "-",
+    "symptoms": "Tidak ditemukan gejala penyakit.",
+    "causes": "-",
+    "treatment": "-"
+  }
+]
