@@ -32,5 +32,5 @@ Aplikasi ini dirancang dengan pendekatan ilmiah dan teknologi modern agar dapat 
 
 Or
 
-1. Download the APK file from the [releases page]().
+1. Download the APK file from the [releases page](https://github.com/Gilangg13/CornLeafDetection/releases/latest).
 2. Install the APK file on your Android device.
